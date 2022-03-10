@@ -2,9 +2,9 @@
   import Title from "$lib/title.svelte";
 </script>
 
-<Title />
-<div class="index">
-  <h2>Welcome</h2>
+<Title title="Ninja Gaming Guides" />
+<div class="about">
+  <h2>About Us</h2>
   <p>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt laborum
     magnam deleniti recusandae, quis aperiam, architecto neque, voluptatem dicta
@@ -15,11 +15,11 @@
     quae incidunt! Aspernatur, vel?
   </p>
   <a href="/guides">View Guides</a>
-  <a href="/about">About</a>
+  <a href="/">Home</a>
 </div>
 
 <style>
-  .index {
+  .about {
     text-align: center;
     display: block;
     margin: 20px auto;
